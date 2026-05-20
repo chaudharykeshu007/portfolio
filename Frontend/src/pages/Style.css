@@ -1,0 +1,22 @@
+.navi>ul>li{
+    position: relative;
+
+    cursor: pointer;
+} 
+
+.navi ul li::after{
+    content: '';
+    background: rgb(94, 90, 90);
+    height: 4px;
+    width: 0px;
+    position: absolute;
+    border-radius: 10px;
+    bottom: -5px;
+    left: 0;
+    transition: all .5s ease-in-out;
+}
+.navi ul li:hover::after{
+    width: 100%;
+}
+
+
