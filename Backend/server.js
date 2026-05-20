@@ -11,7 +11,7 @@ const app = express();
 connectDb()
 
 app.use(cors({
-  origin: "http://localhost:5173", // React URL
+  origin: "https://portfolio-blush-sigma-wfm4rnulpq.vercel.app/", // React URL
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
   credentials: true
 }));
